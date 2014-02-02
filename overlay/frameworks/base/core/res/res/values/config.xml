@@ -232,4 +232,7 @@
 
     <!-- Disable lockscreen translucent decor by default -->
     <bool name="config_enableLockScreenTranslucentDecor">true</bool>
+
+    <bool name="config_button_brightness_support">true</bool>
+
 </resources>
