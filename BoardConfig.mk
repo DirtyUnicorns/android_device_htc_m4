@@ -140,3 +140,6 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 
 # inherit from the proprietary version
 -include vendor/htc/m4/BoardConfigVendor.mk
+
+# Allow for older recoveries
+SKIP_SET_METADATA := true
